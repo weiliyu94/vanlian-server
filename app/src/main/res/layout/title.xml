@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ez48dp"
+    android:background="@color/white"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ll_title_right"
+        android:layout_toRightOf="@+id/ll_title_left"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|left"
+        android:minWidth="@dimen/ez80dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="@dimen/ez10dp"
+            android:paddingRight="@dimen/ez10dp"
+            android:src="@mipmap/back_left" />
+
+        <TextView
+            android:id="@+id/tv_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/ez10dp"
+            android:paddingRight="@dimen/ez10dp"
+            android:text="New Text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|right"
+        android:minWidth="@dimen/ez80dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="@dimen/ez10dp"
+            android:paddingRight="@dimen/ez10dp" />
+
+        <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|right"
+            android:paddingRight="@dimen/ez10dp"
+            android:text="New Text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        style="@style/view_vertical_weight1"
+        android:layout_marginTop="-1dp"
+        android:layout_below="@+id/ll_title_right" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<resources>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<!-- 横线左右顶头 -->
+	<style name="view_vertical_grayline_height1_left0_right0">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">1px</item>
+		<item name="android:background">@color/grayline</item>
+	</style>
+	<!-- 横线 -->
+	<style name="view_vertical_grayline_height10_left0_right0">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">10dp</item>
+		<item name="android:background">@color/graybg</item>
+	</style>
+
+	<!-- 横线 -->
+	<style name="view_vertical_grayline_height1_left10_right10" parent="@style/view_vertical_grayline_height1_left0_right0">
+		<item name="android:layout_marginLeft">@dimen/ez10dp</item>
+		<item name="android:layout_marginRight">@dimen/ez10dp</item>
+	</style>
+
+	<!-- 横线 -->
+	<style name="view_vertical_grayline_height1_left10_right0" parent="@style/view_vertical_grayline_height1_left0_right0">
+		<item name="android:layout_marginLeft">@dimen/ez20dp</item>
+	</style>
+
+	<!-- 横线 -->
+	<style name="view_vertical_grayline_height1_left20_right20" parent="@style/view_vertical_grayline_height1_left0_right0">
+		<item name="android:layout_marginLeft">@dimen/ez20dp</item>
+		<item name="android:layout_marginRight">@dimen/ez20dp</item>
+	</style>
+
+	<!-- 竖线 -->
+	<style name="view_horizontal1_grayline_height30">
+		<item name="android:layout_width">1px</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:background">@color/graymid</item>
+	</style>
+
+	<!-- 满屏竖线 -->
+	<style name="view_horizontal1_grayline_heightbig">
+		<item name="android:layout_width">1px</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:background">@color/grayline</item>
+	</style>
+
+	<!-- 白色满竖线 -->
+	<style name="view_horizontal1_whiteline_heightbig">
+		<item name="android:layout_width">1px</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:background">#FFFFFF</item>
+	</style>
+
+	<!-- 横向权重 -->
+	<style name="view_horizontal_weight1">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">10dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<!-- 竖向权重 -->
+	<style name="view_vertical_weight1">
+		<item name="android:layout_width">10dp</item>
+		<item name="android:layout_height">0dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+</resources>

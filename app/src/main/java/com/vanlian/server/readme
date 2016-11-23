@@ -1,0 +1,58 @@
+com.vanlian.server
+|	activity                app公用activity包
+|   |   MainActivity            app工种选择页
+|   |   LoginActivity           app登录页
+|	base                    app公用基础包
+|   |   BaseActivity            app公用基础activity类
+|   |   BaseApplication         app公用基础application，Crash收集
+|   |   BaseDialog              app公用基础Dialog类
+|   |   BaseHomeActivity        app公用基础activity类，包含"单击两次返回",继承于BaseActivity类
+|   helper                  app公用帮助包
+|   receiver                app公用receiver包
+|   |   NetReceiver             app监听网络变化的包
+|	server                  app工种项目包
+|	|	designer                app设计师服务端
+|	|	|	activity                设计师端activity包
+|	|	|	adapter                 设计师端适配器包
+|	|	|	fragment                设计师端fragment包
+|	|	|	bean                    设计师端模板类
+|	|	|	presenter               设计师端数据解析包
+|	|	|	model                   设计师端网络请求包
+|	|	|	contract                设计师端类控制器包
+|	|	inspector               app品控师服务端
+|	|	|	activity                品控师端activity包
+|	|	|	adapter                 品控师端适配器包
+|	|	|	fragment                品控师端fragment包
+|	|	|	bean                    品控师端模板类
+|	|	|	presenter               品控师端数据解析包
+|	|	|	model                   品控师端网络请求包
+|	|	|	contract                品控师端类控制器包
+|	|	supplier                app供应商服务端
+|	|	|	activity                供应商端activity包
+|	|	|	adapter                 供应商端适配器包
+|	|	|	fragment                供应商端fragment包
+|	|	|	bean                    供应商端模板类
+|	|	|	presenter               供应商端数据解析包
+|	|	|	model                   供应商端网络请求包
+|	|	|	contract                供应商端类控制器包
+|	|	worker                  app工长服务端
+|	|	|	activity                工长端activity包
+|	|	|	adapter                 工长端适配器包
+|	|	|	fragment                工长端fragment包
+|	|	|	bean                    工长端模板类
+|	|	|	presenter               工长端数据解析包
+|	|	|	model                   工长端网络请求包
+|	|	|	contract                工长端类控制器包
+|   utils                   app工具包
+|   |   LogUtils                log日志封装类
+|   |   MyProgressDialog        progress封装类
+|   |   NetWorkUtil             网络工具类，判断网络
+|   |   OneDialog               单按钮的自定义Dialog
+|   |   SharepreferenceUtils    sharepreference封装类
+|   |   StringUtils             string字符串判断类
+|   |   ThreeDialog             三个按钮的dialog封装类
+|   |   ToastUtils              toast封装类
+|   |   TwoDialog               两个个按钮的dialog封装类
+|   view                    app自定义view包
+|   |   MyGridView              GridView的自定义类，解决页面滑动冲突
+|   |   MyListView              ListView的自定义类，解决页面滑动冲突
